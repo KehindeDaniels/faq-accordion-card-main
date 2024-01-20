@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600;700&display=swap');
+
 /* Box sizing rules */
 *,
 *::before,
@@ -17,6 +19,9 @@ blockquote,
 dl,
 dd {
   margin-block-end: 0;
+
+  margin: 0;
+  padding: 0;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
@@ -35,6 +40,9 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  font-family: var(--ff);
+  font-weight: var(--fw-normal);
+  font-size: var(--fz);
 }
 
 /* A elements that don't have a class get default styles */
@@ -90,18 +98,11 @@ select {
     --dividers-light-grayish-blue: hsl(240, 5%, 91%);
   
     /* Typography */
-    --body-copy-font-size: 12px;
-    --font-family: 'Kumbh Sans', sans-serif;
-    --font-weight-normal: 400;
-    --font-weight-bold: 700;
+    --fz: 12px;
+    --ff: 'Kumbh Sans', sans-serif;
+    --fw-normal: 400;
+    --fw-bold: 700;
   }
   
-  /* Example usage */
-  body {
-    font-family: var(--font-family);
-    font-weight: var(--font-weight-normal);
-    font-size: var(--body-copy-font-size);
-  }
   
-  /* You can use these variables for other styles in your CSS */
   
