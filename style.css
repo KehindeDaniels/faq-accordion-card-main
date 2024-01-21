@@ -43,6 +43,8 @@ body {
   font-family: var(--ff);
   font-weight: var(--fw-normal);
   font-size: var(--fz);
+
+  background: linear-gradient(to bottom, var(--background-gradient-soft-violet), var(--background-gradient-soft-blue));
 }
 
 /* A elements that don't have a class get default styles */
@@ -104,5 +106,18 @@ select {
     --fw-bold: 700;
   }
   
-  
-  
+
+main.container {
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.accordion-section {
+    background-color: #fff;
+    max-width: 920px;
+    padding: 1.5rem;
+    border-radius: 2rem;
+}
